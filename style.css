@@ -1,0 +1,116 @@
+html{
+    scroll-behavior:smooth;
+}
+/* ========HEADER SECTION========= */
+.header{
+    background-color: #2bcbba;
+}
+.header img {
+	width: 100px;
+	margin-top: 8px;
+}
+.header ul{
+    list-style: none;
+    margin-bottom: -5px;
+}
+.header ul li{
+    display: inline-block;
+}
+.header ul li a{
+    display:block;
+	text-decoration: none;
+	padding: 10px 20px;
+	color: white;
+	font-size: 20px;
+    line-height: 23px;
+	border-right: 1px solid #fff;
+}
+/* ========BANNER SECTION========= */
+.banner{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-ULgiZN92eUS3EJeTDxbNfjGPbXTKzkNLRQ&usqp=CAU) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0px;
+}
+.banner h2{
+    background: #25222275;
+	color: white;
+	display: inline-block;
+	padding: 10px 20px;
+    font-size: 30px;
+	border-radius: 6px;
+	margin-bottom: 20px;
+}
+.banner h1{
+    background: rgba(0, 0, 0, 0.25);
+	color: white;
+	max-width: 400px;
+	margin: auto;
+	padding: 10px 45px;
+	border-radius: 6px;
+	font-size: 35px;
+}
+/* ========ABOUT SECTION========= */
+.about{}
+.about-content h2{
+    font-size: 30px;
+    padding:10px 25px;
+    position: relative;
+    display: inline-block;
+    background-color:rgba(60, 130, 97, 0.798);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: .5s;
+    z-index: 1;
+}
+.about-content h2:hover{
+    color: white;
+    cursor: pointer;
+}
+.about-content h2::after{
+    content: "";
+    height: 100%;
+    width: 0;
+    background-color: #fd9644;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+    transition: .5s;
+    z-index: -1;
+}
+.about h2:hover::after{
+    width: 100%;
+}
+
+.card i{
+    font-size: 40px;
+    padding:10px 3px;
+    border-radius: 20px 0px;
+    margin-top: 10px;
+    background-color:red;
+    color:black;
+    width: 60px;
+    display: block;
+    margin: auto;
+}
+/* ========INFO SECTION========= */
+.info{}
+.info img{
+    width: 150px;
+    margin-bottom: 30px;
+}
+/* ========INFO SECTION========= */
+.footer{
+    background-color: #485460;
+}
+.footer .menu a{
+    display:inline-block;
+	text-decoration: none;
+	padding: 10px 10px;
+	color: white;
+	font-size: 20px;
+    line-height: 23px;
+}
+.footer .menu a:hover{
+    color: red;
+}
